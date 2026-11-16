@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Joke Hub</h1>
+        <p>Find something funny for your day!</p>
+    </header>
+
+    <main>
+
+        <section class="search-panel">
+
+            <h2>Find Your Joke</h2>
+
+            <div class="form-row">
+                <label for="jokeCategory">Choose Category:</label>
+                <select id="jokeCategory">
+                    <option value="Any">All Categories</option>
+                    <option value="Programming">Programming</option>
+                    <option value="Misc">General</option>
+                    <option value="Pun">Puns</option>
+                    <option value="Dark">Dark</option>
+                    <option value="Spooky">Spooky</option>
+                    <option value="Christmas">Christmas</option>
+                </select>
+            </div>
+
+            <div class="form-row">
+                <label for="jokeFormat">Joke Format:</label>
+                <select id="jokeFormat">
+                    <option value="">All Formats</option>
+                    <option value="single">One Part</option>
+                    <option value="twopart">Two Parts</option>
+                </select>
+            </div>
+
+            <div class="form-row">
+                <label for="jokeCount">Number of Jokes:</label>
+                <select id="jokeCount">
+                    <option value="1">1 Joke</option>
+                    <option value="2">2 Jokes</option>
+                    <option value="3">3 Jokes</option>
+                    <option value="5">5 Jokes</option>
+                </select>
+            </div>
+
+            <div class="button-group">
+                <button type="reset" id="resetForm">Reset</button>
+                <button type="button" id="findJokes">Get Jokes</button>
+            </div>
+
+        </section>
+
+        <section class="results-section">
+
+            <h2>Your Jokes</h2>
+
+            <p id="statusText">Click Get Jokes to begin!</p>
+
+            <div id="jokesContainer">
+                <!-- Jokes will appear here -->
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Joke Hub | Powered by JokeAPI</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
