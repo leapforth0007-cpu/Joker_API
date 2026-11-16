@@ -1,0 +1,99 @@
+/* General page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    text-align: center;
+}
+
+/* Main joke container */
+.container {
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 15px;
+     width: 100%;
+    max-width: 550px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Main heading */
+h1 {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+/* paragraph styling*/
+p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* joke display area*/
+#joke {
+    background-color: #f3f4ff;
+    padding: 20px;
+    margin: 25px 0;
+    border-radius: 10px;
+    color: #333;
+    font-size: 20px;
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+}
+
+/* Button styling */
+button {
+    background-color: #667eea;
+    color: white;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #4c5fd7;
+}
+
+/* Keyboard accessibility */
+button:focus-visible {
+    outline: 3px solid #333;
+    outline-offset: 4px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    .container {
+        padding: 25px 20px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    #joke {
+        font-size: 17px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+
+
+
+
