@@ -18,7 +18,9 @@ Joke Hub is a joke generator website that uses JokeAPI to find and display diffe
 
 ### Name 2: Sukhmanjeet kaur
 
-- Was responsible for [specific tasks], focusing on [specific HTML elements].
+- Worked on CSS styling and webpage design.
+- Centered the content using Flexbox.
+- Added background colors, button styling, and responsive design.
 
 ### Name 3: Jaskeerat Singh
 
