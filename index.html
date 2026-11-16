@@ -15,4 +15,67 @@
         <p>Find something funny for your day!</p>
     </header>
 
+    <main>
+
+        <section class="settings-panel">
+
+            <h2>Customize Your Joke</h2>
+            <p>Choose your preferences below.</p>
+
+            <div class="form-group">
+                <label for="jokeCategory">Select Category</label>
+
+                <select id="jokeCategory">
+                    <option value="Any">All Categories</option>
+                    <option value="Programming">Programming</option>
+                    <option value="Misc">General</option>
+                    <option value="Pun">Puns</option>
+                    <option value="Dark">Dark</option>
+                    <option value="Spooky">Spooky</option>
+                    <option value="Christmas">Christmas</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="jokeFormat">Joke Format</label>
+
+                <select id="jokeFormat">
+                    <option value="">Any Format</option>
+                    <option value="single">One Part</option>
+                    <option value="twopart">Two Parts</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="keyword">Search by Keyword</label>
+
+                <input
+                    type="text"
+                    id="keyword"
+                    placeholder="Example: computer"
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="jokeCount">Number of Jokes</label>
+
+                <select id="jokeCount">
+                    <option value="1">1 Joke</option>
+                    <option value="2">2 Jokes</option>
+                    <option value="3">3 Jokes</option>
+                    <option value="5">5 Jokes</option>
+                </select>
+            </div>
+
+            <div class="safety-option">
+                <input type="checkbox" id="safeJokes" checked>
+                <label for="safeJokes">Show safe jokes only</label>
+            </div>
+
+            <button type="button" id="findJokes">
+                Find Jokes
+            </button>
+
+        </section>
+
     
